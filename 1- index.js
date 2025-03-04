@@ -9,3 +9,5 @@ fs.readFile("./sample.txt","utf-8" ,(err, data)=>{
 })
 
 console.log("I am first")
+
+// =================== Make it sync in next file
