@@ -13,4 +13,6 @@ const server = http.createServer((request, response, next) => {
   response.end("<h1>Hello World</h1>");
 });
 
-
+server.listen(PORT, hostname, () => {
+  console.log(`Server is working on http://${hostname}:${PORT}`);
+});
