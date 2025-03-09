@@ -3,7 +3,6 @@ const http = require("http");
 const PORT= 2000;
 const hostname = "localhost"
 
-
 const server = http.createServer((request, response, next) => {
   if (request.url === "/about") {
     response.end("<h1>About Page</h1>");
